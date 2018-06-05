@@ -1,2 +1,2 @@
-# Eye Love You
+# Eye Love U
 キモかわいい目をうんちにします

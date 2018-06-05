@@ -1,10 +1,10 @@
 {
   "manifest_version": 2,
-  "name": "Eye Love You",
+  "name": "Eye Love U",
   "version": "1.0.0",
   "description": "キモかわいい目をうんちにします",
   "page_action": {
-    "default_title": "Eye Love You"
+    "default_title": "Eye Love U"
   },
   "content_scripts": [
     {

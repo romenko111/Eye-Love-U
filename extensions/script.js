@@ -1,6 +1,12 @@
-document.addEventListener("DOMSubtreeModified", () => {
+const observer = new MutationObserver(() => {
   const messages = Array.from(document.getElementsByClassName("timelineMessage__message"));
   eyeToUnti(messages);
+});
+
+observer.observe(document.body, {
+  childList: true,
+  characterData: true,
+  subtree: true
 });
 
 const eyeToUnti = nodes => {
